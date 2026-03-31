@@ -5,7 +5,15 @@
       "Bash(git branch:*)",
       "Bash(git remote:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git -c url.https://gh-proxy.com/https://github.com/.insteadof= remote set-url origin https://github.com/clxstart/xiaohongshu.git)",
+      "Bash(git -c url.https://gh-proxy.com/https://github.com/.insteadof= push -u origin main)",
+      "Bash(powershell -NoProfile -Command \"Set-Location 'E:\\\\goodworlk\\\\xiaohongshu'; git push -u origin main\")",
+      "Skill(update-config)",
+      "Bash(mvn:*)",
+      "Bash(git:*)"
     ]
   }
 }

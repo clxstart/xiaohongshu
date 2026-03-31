@@ -6,7 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xiaohongshu" />
+      </profile>
+      <profile name="Annotation profile for xiaohongshu" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/maven/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+          <entry name="D:/maven/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="xiaochangshu-auth" />
       </profile>
     </annotationProcessing>
   </component>
