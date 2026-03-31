@@ -15,7 +15,10 @@
       "Bash(mvn:*)",
       "Bash(git:*)",
       "Bash(curl:*)",
-      "Bash(HTTP_PROXY=\"http://127.0.0.1:7890\" HTTPS_PROXY=\"http://127.0.0.1:7890\" ALL_PROXY=\"http://127.0.0.1:7890\" git -C \"E:/goodworlk/xiaohongshu\" push origin main)"
+      "Bash(HTTP_PROXY=\"http://127.0.0.1:7890\" HTTPS_PROXY=\"http://127.0.0.1:7890\" ALL_PROXY=\"http://127.0.0.1:7890\" git -C \"E:/goodworlk/xiaohongshu\" push origin main)",
+      "Bash(HTTP_PROXY=http://127.0.0.1:7890 HTTPS_PROXY=http://127.0.0.1:7890 git push origin main)",
+      "Bash(mkdir -p xiaochang-framework/xiaochang-common/src/main/java/com/clx/framework/common)",
+      "Bash(mkdir -p xiaochang-framework/xiaochang-common/src/test/java/com/clx/framework/common)"
     ]
   }
 }

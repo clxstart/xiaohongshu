@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/xiaochangshu-auth/pom.xml" />
         <option value="$PROJECT_DIR$/xiaochang-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaochang-framework/xiaochang-common/pom.xml" />
       </list>
     </option>
   </component>
