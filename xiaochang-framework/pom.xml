@@ -21,6 +21,8 @@
     <modules>
         <!-- 通用工具组件 -->
         <module>xiaochang-common</module>
+        <!-- 业务日志切面组件 -->
+        <module>xiaochang-aop-log</module>
     </modules>
 
     <properties>

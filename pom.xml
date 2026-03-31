@@ -41,6 +41,7 @@
         <spring-boot.version>3.0.12</spring-boot.version>
         <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
         <spring-cloud.version>2022.0.0</spring-cloud.version>
+        <jackson.version>2.16.1</jackson.version>
     </properties>
 
     <!-- 统一依赖管理 -->
@@ -54,11 +55,31 @@
                 <version>${revision}</version>
             </dependency>
 
+            <!-- 接口日志组件 -->
+            <dependency>
+                <groupId>com.clx</groupId>
+                <artifactId>xiaochang-aop-log</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <!-- 避免编写那些冗余的 Java 样板式代码，如 get、set 等 -->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- Jackson -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
 
 
