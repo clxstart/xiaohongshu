@@ -47,6 +47,13 @@
     <dependencyManagement>
         <dependencies>
 
+            <!-- 平台通用模块 -->
+            <dependency>
+                <groupId>com.clx</groupId>
+                <artifactId>xiaochang-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <!-- 避免编写那些冗余的 Java 样板式代码，如 get、set 等 -->
             <dependency>
                 <groupId>org.projectlombok</groupId>

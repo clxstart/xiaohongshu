@@ -17,6 +17,12 @@
     <description>小常书：认证服务（负责处理用户登录、注册、账号注销等）</description>
 
     <dependencies>
+        <!-- 平台通用模块 -->
+        <dependency>
+            <groupId>com.clx</groupId>
+            <artifactId>xiaochang-common</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
