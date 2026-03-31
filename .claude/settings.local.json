@@ -13,7 +13,9 @@
       "Bash(powershell -NoProfile -Command \"Set-Location 'E:\\\\goodworlk\\\\xiaohongshu'; git push -u origin main\")",
       "Skill(update-config)",
       "Bash(mvn:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(curl:*)",
+      "Bash(HTTP_PROXY=\"http://127.0.0.1:7890\" HTTPS_PROXY=\"http://127.0.0.1:7890\" ALL_PROXY=\"http://127.0.0.1:7890\" git -C \"E:/goodworlk/xiaohongshu\" push origin main)"
     ]
   }
 }
