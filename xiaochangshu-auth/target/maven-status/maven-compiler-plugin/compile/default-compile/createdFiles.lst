@@ -1,1 +1,7 @@
+com\clx\xiaochangshu\auth\controller\User$UserBuilder.class
 com\clx\xiaochangshu\auth\XiaochangshuAuthApplication.class
+com\clx\xiaochangshu\auth\domain\mapper\UserDOMapper.class
+com\clx\xiaochangshu\auth\controller\TestController.class
+com\clx\xiaochangshu\auth\domain\dataobject\UserDO$UserDOBuilder.class
+com\clx\xiaochangshu\auth\domain\dataobject\UserDO.class
+com\clx\xiaochangshu\auth\controller\User.class

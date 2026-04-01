@@ -1,0 +1,3 @@
+com\clx\framework\aop\log\aspect\ApiOperationLogAspect.class
+com\clx\framework\aop\log\config\ApiOperationLogAutoConfiguration.class
+com\clx\framework\aop\log\aspect\ApiOperationLog.class
