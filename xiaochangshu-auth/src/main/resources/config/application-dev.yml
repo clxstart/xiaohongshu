@@ -4,7 +4,7 @@ spring:
     # 数据库连接信息
     url: jdbc:mysql://127.0.0.1:3307/xiaochangshu?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     username: root # 数据库用户名
-    password: 123456 # 数据库密码
+    password: RDoIKQPxW8YVJ8vMaqXoQROfVJIWLgI4b+GQKvDdH64DKSPnCBAsyFLIOrgJ0gH1nLYiWPsyMfDeWSJ26RZRUA== # 数据库密码（加密后）
     type: com.alibaba.druid.pool.DruidDataSource
     druid: # Druid 连接池
       initial-size: 5 # 初始化连接池大小
@@ -27,6 +27,8 @@ spring:
         login-username: admin # 配置监控后台登录的用户名、密码
         login-password: admin
       filter:
+        config:
+          enabled: true # 启用 ConfigFilter 解密密码
         stat:
           enabled: true
           log-slow-sql: true # 开启慢 sql 记录
@@ -35,6 +37,8 @@ spring:
         wall: # 防火墙
           config:
             multi-statement-allow: true
+      # 解密密码配置
+      connection-properties: config.decrypt=true;config.decrypt.key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIqzHyXawMU1JzeIitsyc5h/mKOCeWoDYT00yUQFVlhgV9aoUnkA5eXfTxxMTGUVyHwykHJEzMgEQEYr4KY8gOUCAwEAAQ==
 
 logging:
   level:
