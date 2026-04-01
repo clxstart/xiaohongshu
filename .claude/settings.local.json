@@ -31,7 +31,9 @@
       "Bash(~/bin/officecli.exe --help)",
       "Bash(~/bin/officecli.exe create:*)",
       "Bash(~/bin/officecli.exe add:*)",
-      "Bash(~/bin/officecli.exe view:*)"
+      "Bash(~/bin/officecli.exe view:*)",
+      "Bash(HTTP_PROXY=http://127.0.0.1:7890 HTTPS_PROXY=http://127.0.0.1:7890 gh release:*)",
+      "Bash(HTTP_PROXY=http://127.0.0.1:7890 HTTPS_PROXY=http://127.0.0.1:7890 curl -s https://api.github.com/repos/iOfficeAI/AionUi/releases/latest)"
     ]
   }
 }
