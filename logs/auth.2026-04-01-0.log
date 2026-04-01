@@ -9,3 +9,20 @@
 2026-04-01 17:00:46.328 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
 2026-04-01 17:00:46.659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
 2026-04-01 17:00:46.673 [main] INFO  c.c.xiaochangshu.auth.XiaochangshuAuthApplication - Started XiaochangshuAuthApplication in 5.487 seconds (process running for 6.946)
+2026-04-01 17:06:19.530 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2026-04-01 17:06:19.553 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2026-04-01 17:06:38.922 [main] INFO  c.c.xiaochangshu.auth.XiaochangshuAuthApplication - Starting XiaochangshuAuthApplication using Java 17.0.16 with PID 21852 (E:\goodworlk\xiaohongshu\xiaochangshu-auth\target\classes started by 常利星 in E:\goodworlk\xiaohongshu)
+2026-04-01 17:06:38.928 [main] INFO  c.c.xiaochangshu.auth.XiaochangshuAuthApplication - The following 1 profile is active: "dev"
+2026-04-01 17:06:41.051 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2026-04-01 17:06:41.058 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-01 17:06:41.058 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2026-04-01 17:06:41.141 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-01 17:06:41.142 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2077 ms
+2026-04-01 17:06:41.695 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2026-04-01 17:06:42.062 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2026-04-01 17:06:42.462 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2026-04-01 17:06:42.477 [main] INFO  c.c.xiaochangshu.auth.XiaochangshuAuthApplication - Started XiaochangshuAuthApplication in 4.836 seconds (process running for 5.886)
+2026-04-01 17:07:20.140 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-01 17:07:20.141 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-01 17:07:20.142 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-04-01 17:07:20.340 [http-nio-8080-exec-3] WARN  c.c.x.auth.exception.GlobalExceptionHandler - /test2 request error, errorCode: AUTH-10001, errorMessage: nickName 昵称不能为空, 当前值: ''; 
