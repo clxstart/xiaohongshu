@@ -1,2 +1,3 @@
 com\clx\xiaochangshu\auth\DruidTests.class
+com\clx\xiaochangshu\auth\RedisTests.class
 com\clx\xiaochangshu\auth\XiaochangshuAuthApplicationTests.class

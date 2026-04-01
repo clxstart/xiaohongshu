@@ -1,5 +1,8 @@
 E:\goodworlk\xiaohongshu\xiaochangshu-auth\src\main\java\com\clx\xiaochangshu\auth\XiaochangshuAuthApplication.java
+E:\goodworlk\xiaohongshu\xiaochangshu-auth\src\main\java\com\clx\xiaochangshu\auth\enums\ResponseCodeEnum.java
 E:\goodworlk\xiaohongshu\xiaochangshu-auth\src\main\java\com\clx\xiaochangshu\auth\controller\User.java
+E:\goodworlk\xiaohongshu\xiaochangshu-auth\src\main\java\com\clx\xiaochangshu\auth\config\RedisTemplateConfig.java
 E:\goodworlk\xiaohongshu\xiaochangshu-auth\src\main\java\com\clx\xiaochangshu\auth\domain\dataobject\UserDO.java
 E:\goodworlk\xiaohongshu\xiaochangshu-auth\src\main\java\com\clx\xiaochangshu\auth\controller\TestController.java
+E:\goodworlk\xiaohongshu\xiaochangshu-auth\src\main\java\com\clx\xiaochangshu\auth\exception\GlobalExceptionHandler.java
 E:\goodworlk\xiaohongshu\xiaochangshu-auth\src\main\java\com\clx\xiaochangshu\auth\domain\mapper\UserDOMapper.java
