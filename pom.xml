@@ -66,6 +66,13 @@
                 <version>${revision}</version>
             </dependency>
 
+            <!-- Jackson 配置组件 -->
+            <dependency>
+                <groupId>com.clx</groupId>
+                <artifactId>xiaochang-jackson</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <!-- 避免编写那些冗余的 Java 样板式代码，如 get、set 等 -->
             <dependency>
                 <groupId>org.projectlombok</groupId>

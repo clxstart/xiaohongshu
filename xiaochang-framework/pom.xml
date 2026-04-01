@@ -23,6 +23,8 @@
         <module>xiaochang-common</module>
         <!-- 业务日志切面组件 -->
         <module>xiaochang-aop-log</module>
+        <!-- Jackson 配置组件 -->
+        <module>xiaochang-jackson</module>
     </modules>
 
     <properties>

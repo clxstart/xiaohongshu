@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/xiaochang-framework/xiaochang-aop-log/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaochang-framework/xiaochang-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaochang-framework/xiaochang-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaochang-framework/xiaochang-jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaochang-framework/xiaochang-jackson/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaochangshu-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xiaochangshu-auth/src/main/resources" charset="UTF-8" />
   </component>
