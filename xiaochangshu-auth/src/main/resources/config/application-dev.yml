@@ -57,3 +57,7 @@ spring:
 logging:
   level:
     com.clx.xiaochangshu.auth.domain.mapper: debug
+
+aliyun: # 接入阿里云（发送短信使用）
+  accessKeyId: xxx # 填写你自己的
+  accessKeySecret: xxx # 填写你自己的
