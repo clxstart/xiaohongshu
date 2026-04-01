@@ -56,9 +56,10 @@ public class VerificationCodeServiceImpl implements VerificationCodeService {
 
         // 调用第三方短信发送服务
         threadPoolTaskExecutor.submit(() -> {
-            String signName = "阿里云短信测试";
-            String templateCode = "SMS_154950909";
-            String templateParam = String.format("{\"code\":\"%s\"}", verificationCode);
+            String signName = "速通互联验证码"; // 签名，个人测试签名无法修改
+            String templateCode = "100001"; // 短信模板编码
+            // 短信模板参数，code 表示要发送的验证码；min 表示验证码有效时长，即 3 分钟
+            String templateParam = String.format("{\"code\":\"%s\",\"min\":\"3\"}", verificationCode);
             aliyunSmsHelper.sendMessage(signName, templateCode, phone, templateParam);
         });
 

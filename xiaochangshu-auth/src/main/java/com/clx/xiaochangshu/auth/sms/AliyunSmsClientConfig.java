@@ -1,6 +1,5 @@
 package com.clx.xiaochangshu.auth.sms;
 
-import com.aliyun.dysmsapi20170525.Client;
 import com.aliyun.teaopenapi.models.Config;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
@@ -18,18 +17,15 @@ public class AliyunSmsClientConfig {
     private AliyunAccessKeyProperties aliyunAccessKeyProperties;
 
     @Bean
-    public Client smsClient() {
+    public com.aliyun.dypnsapi20170525.Client smsClient() {
         try {
-            Config config = new Config()
-                    // 必填
-                    .setAccessKeyId(aliyunAccessKeyProperties.getAccessKeyId())
-                    // 必填
-                    .setAccessKeySecret(aliyunAccessKeyProperties.getAccessKeySecret());
+            Config config = new Config();
+            // Endpoint 请参考 https://api.aliyun.com/product/Dypnsapi
+            config.endpoint = "dypnsapi.aliyuncs.com";
+            config.accessKeyId = aliyunAccessKeyProperties.getAccessKeyId();
+            config.accessKeySecret = aliyunAccessKeyProperties.getAccessKeySecret();
 
-            // Endpoint 请参考 https://api.aliyun.com/product/Dysmsapi
-            config.endpoint = "dysmsapi.aliyuncs.com";
-
-            return new Client(config);
+            return new com.aliyun.dypnsapi20170525.Client(config);
         } catch (Exception e) {
             log.error("初始化阿里云短信发送客户端错误: ", e);
             return null;
