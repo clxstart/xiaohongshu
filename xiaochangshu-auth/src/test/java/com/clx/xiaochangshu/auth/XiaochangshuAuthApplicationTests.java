@@ -30,4 +30,36 @@ class XiaochangshuAuthApplicationTests {
         userDOMapper.insert(userDO);
     }
 
+    /**
+     * 查询数据
+     */
+    @Test
+    void testSelect() {
+        UserDO userDO = userDOMapper.selectByPrimaryKey(1L);
+        log.info("User: {}", userDO);
+    }
+
+    /**
+     * 更新数据
+     */
+    @Test
+    void testUpdate() {
+        UserDO userDO = UserDO.builder()
+                .id(1L)
+                .username("clxupdate")
+                .updateTime(LocalDateTime.now())
+                .createTime(LocalDateTime.now())
+                .build();
+
+        userDOMapper.updateByPrimaryKey(userDO);
+    }
+
+    /**
+     * 删除数据
+     */
+    @Test
+    void testDelete() {
+        userDOMapper.deleteByPrimaryKey(1L);
+    }
+
 }
