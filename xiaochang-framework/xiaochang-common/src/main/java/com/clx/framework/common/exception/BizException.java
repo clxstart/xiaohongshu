@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class BizException implements BaseExceptionInterface {
+public class BizException extends RuntimeException implements BaseExceptionInterface {
 
     /**
      * 异常码
